@@ -14,11 +14,11 @@ import datetime as dt
 
 app = Flask(__name__)
 
-hello_dict = {"Hello": "World!"}
 
 @app.route("/")
 def home():#display routes
-    return ("Routes: precipitation, stations, tobs, start, end")
+    return ("URLs to view routes:")
+    return ("test")
 #display route discription
 
 @app.route("/api/v1.0/precipitation")
